@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.spec
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest / Unit test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+tests/temp/
+*.ass
+*.mp4
+*.wav
+!tests/fixtures/*.mp4
+!tests/fixtures/*.wav
+!docs/screenshots/*.png
+
+# User data & model cache directories
+.piccut/
+.chlaca/
+models/
+huggingface/
+*.onnx
+*.bin
+
+# External reference downloads
+auto-subs-ref/
+
+# IDE & Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

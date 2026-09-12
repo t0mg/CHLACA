@@ -1,0 +1,148 @@
+================================================================================
+💥 CHLACA - THIRD-PARTY SOFTWARE LICENSES & COPYRIGHT NOTICES
+================================================================================
+
+This document lists the open-source software, libraries, runtimes, models,
+and fonts bundled with or utilized by CHLACA.
+
+================================================================================
+1. CHLACA (Application)
+================================================================================
+License: MIT License
+Copyright (c) 2026 CHLACA Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+2. FFmpeg & FFprobe
+================================================================================
+Website: https://ffmpeg.org
+License: GNU Lesser General Public License (LGPL) version 2.1 or later / GPL v3
+
+This software uses libraries and standalone binaries from the FFmpeg project.
+FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
+FFmpeg is distributed under the GNU Lesser General Public License (LGPL) v2.1
+or GNU General Public License (GPL) v3 depending on the build configuration.
+
+Source code for FFmpeg can be downloaded from:
+    https://ffmpeg.org/download.html
+Builds provided by Gyan.dev:
+    https://www.gyan.dev/ffmpeg/builds/
+
+================================================================================
+3. faster-whisper
+================================================================================
+Website: https://github.com/SYSTRAN/faster-whisper
+License: MIT License
+Copyright (c) 2023 Guillaume Klein
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+================================================================================
+4. CTranslate2
+================================================================================
+Website: https://github.com/OpenNMT/CTranslate2
+License: MIT License
+Copyright (c) 2020 OpenNMT
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+================================================================================
+5. OpenAI Whisper (Models & Architecture)
+================================================================================
+Website: https://github.com/openai/whisper
+License: MIT License
+Copyright (c) 2022 OpenAI
+
+The Whisper speech recognition models were trained and published by OpenAI
+under the MIT License. Model conversions for CTranslate2 are provided by
+SYSTRAN under the MIT License.
+
+================================================================================
+6. Silero VAD (Voice Activity Detector)
+================================================================================
+Website: https://github.com/snakers4/silero-vad
+License: MIT License
+Copyright (c) 2021 Silero Team
+
+The Silero VAD ONNX model (`silero_vad_v6.onnx`) is included to detect speech
+boundaries and silence intervals for accurate subtitle synchronization.
+
+================================================================================
+7. pywebview
+================================================================================
+Website: https://pywebview.flowrl.com
+License: BSD 3-Clause License
+Copyright (c) 2014-2024 Roman Sakno
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the conditions of the BSD 3-Clause License are met.
+
+================================================================================
+8. Bottle
+================================================================================
+Website: https://bottlepy.org
+License: MIT License
+Copyright (c) 2009-2024 Marcel Hellkamp
+
+================================================================================
+9. ONNX Runtime
+================================================================================
+Website: https://onnxruntime.ai
+License: MIT License
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+================================================================================
+10. NVIDIA CUDA & cuDNN Runtime Libraries
+================================================================================
+Website: https://developer.nvidia.com/cuda-toolkit
+License: NVIDIA CUDA Toolkit End User License Agreement (EULA)
+Copyright (c) 2024 NVIDIA Corporation. All rights reserved.
+
+This distribution includes redistributable dynamic link libraries (cuBLAS, cuDNN,
+NVRTC) provided by NVIDIA Corporation for GPU acceleration. Redistribution is
+permitted in accordance with the NVIDIA CUDA Toolkit EULA:
+    https://docs.nvidia.com/cuda/eula/index.html
+
+================================================================================
+11. Fonts
+================================================================================
+- Syne: Designed by Lucas Descroix for Bonjour Monde.
+  License: SIL Open Font License, Version 1.1 (OFL-1.1)
+  https://scripts.sil.org/OFL
+
+- Inter, Montserrat, Poppins, Oswald, Bebas Neue, Anton, Roboto:
+  Licensed under SIL Open Font License 1.1 or Apache License 2.0.
+  Available via Google Fonts (https://fonts.google.com).
