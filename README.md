@@ -14,7 +14,7 @@
 - Customize high-energy **animated word highlights & background boxes** in a live 60fps preview player
 - **Burn them directly into your video** with hardware-accelerated FFmpeg. No cloud subscriptions, no subscriptions fees, no complex NLE macro templates.
 
-> Warning: I vibe coded this tool with absolutely zero oversight, but it fullfilled my need perfectly in minutes after a couple of hours wasted on searching for captioning tools with word animation that aren't paywalled, watermarked, require an account, or all of the above. 
+> Note: I vibe coded this tool with absolutely zero oversight, but it fullfilled my need perfectly in minutes after a couple of hours wasted on searching for captioning tools with word animation that aren't paywalled, watermarked, require an account, or all of the above. 
 > 
 > This disclaimer is basically the only human written thing in this whole forking repo, but I figured, since CHLACA works great and the tokens have been burnt, I might put it here and it might help others out. Do not expect any maintenance tho :) Cheers.
 
@@ -87,8 +87,8 @@ One-click burn-in uses hardware-accelerated FFmpeg (`h264_nvenc` / `libx264`) wi
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/chlaca.git
-cd chlaca
+git clone https://github.com/t0mg/CHLACA.git
+cd CHLACA
 ```
 
 ### 2. Install Dependencies
